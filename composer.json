@@ -2,7 +2,7 @@
     "name": "sourcecroc/php-code-style",
     "description": "Code style used at SourceCroc",
     "type": "metapackage",
-    "license": "GPLv3",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "Maurice Heijligers",
