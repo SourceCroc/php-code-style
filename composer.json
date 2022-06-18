@@ -1,0 +1,16 @@
+{
+    "name": "sourcecroc/php-code-style",
+    "description": "Code style used at SourceCroc",
+    "type": "metapackage",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Maurice Heijligers",
+            "email": "maurice@sourcecroc.io"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*"
+    }
+}
