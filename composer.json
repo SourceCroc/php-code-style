@@ -1,7 +1,7 @@
 {
     "name": "sourcecroc/php-code-style",
     "description": "Code style used at SourceCroc",
-    "type": "metapackage",
+    "type": "library",
     "license": "GPL-3.0-or-later",
     "authors": [
         {
