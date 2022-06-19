@@ -10,7 +10,9 @@ class OperatorSpacingSniff extends PSR12OperatorSpacingSniff
     protected function isOperator(File $phpcsFile, $stackPtr): bool
     {
         $tokens = $phpcsFile->getTokens();
-        dump($tokens[$stackPtr]['code']);
+        if ($tokens[$stackPtr]['code'] === T_STRING_CONCAT) {
+            return false;
+        }
 
         return parent::isOperator($phpcsFile, $stackPtr);
     }
