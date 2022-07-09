@@ -17,4 +17,6 @@
             <property name="spacesCountAroundEqualsSign" value="0" />
         </properties>
     </rule>
+
+    <rule ref="SlevomatCodingStandard.Namespaces.UnusedUses" />
 </ruleset>
